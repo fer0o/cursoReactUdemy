@@ -3,9 +3,9 @@
 
 const persona={
     nombre :'Tony',
-    edad: 44,
+    edad: 45,
     clave: 'Ironman'
 }
 //extrae solo lo que quiero de ese objeto
-const {nombre,edad} = persona
-console.log(nombre,edad )
+const {nombre, edad} = persona
+console.log(nombre)
