@@ -2,12 +2,18 @@
 import React from 'react';
 
 const PrimeraApp = () =>{
+     const saludo = "Hola Mundo"
+     // {
+    //     nombre: "Fernando",
+    //     edad: 29
+    // }
     return(
-        <div>
-            <h1>Hola mundo</h1>
+        <>
+        <h1>{saludo}</h1>
+            {/* <pre>{JSON.stringify(saludo,null,3)}</pre> */}
             <h2>Sobres prro</h2>
 
-        </div>
+        </>
 
     )
     
