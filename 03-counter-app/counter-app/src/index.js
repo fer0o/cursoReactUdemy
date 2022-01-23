@@ -10,4 +10,4 @@ const divRoot = document.querySelector ('#root')
 
 //componente padre
 
-ReactDOM.render(<CounterApp value={123}/>,divRoot)
+ReactDOM.render(<CounterApp value={10}/>,divRoot)
