@@ -1,11 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PrimeraApp from './components/PrimeraApp'
+//import PrimeraApp from './components/PrimeraApp'
+import CounterApp from './CounterApp'
 import './index.css'
 
 
 
 const divRoot = document.querySelector ('#root')
 
+//componente padre
 
-ReactDOM.render(<PrimeraApp/>,divRoot)
+ReactDOM.render(<CounterApp value={123}/>,divRoot)
